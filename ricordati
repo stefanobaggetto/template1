@@ -1,0 +1,5 @@
+Ricorda di:
+- cambiare name nel package.json
+- su index.js c'è "nomeModulo" inserire il nome del modulo lì (es assignment)
+
+- cambia tutti i nomeModulo con il nome che ti serve
