@@ -51,7 +51,7 @@ paths:
           description: nomeModulo response
           schema:
             $ref: '#/definitions/nomeModulo'
-        default:
+        404:
           description: unexpected error
           schema:
             $ref: '#/definitions/Error'
@@ -70,7 +70,7 @@ paths:
           description: nomeModulo response
           schema:
             $ref: '#/definitions/nomeModulo'
-        default:
+        404:
           description: unexpected error
           schema:
             $ref: '#/definitions/Error'
@@ -86,7 +86,7 @@ paths:
       responses:
         200:
           description: nomeModulo deleted
-        default:
+        404:
           description: unexpected error
           schema:
             $ref: '#/definitions/Error'
@@ -102,7 +102,7 @@ paths:
       responses:
         200:
           description: nomeModulo modified
-        default:
+        404:
           description: unexpected error
           schema:
             $ref: '#/definitions/Error'
